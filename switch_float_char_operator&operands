@@ -1,0 +1,37 @@
+#include <stdio.h>
+int main(){
+    float a , b ,c ;
+    char d;
+       
+       printf("enter the operation to perform ");
+    scanf(" %c", &d);
+       
+        printf("Enter two numbers: ");
+    scanf("%f%f", &a , &b );
+        switch(d)
+    {
+    case '+':
+    c = a+b ;
+    printf(" sum is %f ",c);
+    break;
+     
+    case '-':
+    c = a-b;
+    printf(" substraction is %f", c);
+    break;
+    
+    case'*':
+    c=a*b;
+    printf(" multiplication is %f", c);
+    break;
+    
+    case'/':
+    c= a/b ;
+    printf(" division is %f" , c);
+    break;
+    
+    default :
+    printf(" INVALID OPERATOR");
+    }
+    return 0;
+    }
