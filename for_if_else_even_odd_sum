@@ -7,9 +7,9 @@ int main() {
     for (i = 1; i <= n; i++) 
     {
         if (i % 2 == 0) {
-            sum_even = i; 
+            sum_even = sum_even + i; 
         } else {
-            sum_odd = i;  
+            sum_odd = sum_odd + i;  
         }
     }
     printf("\nSum of all even numbers up to %d = %d\n", n, sum_even);
