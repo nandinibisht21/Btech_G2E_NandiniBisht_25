@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main () {
+    float i , sum=0 ,n ;
+    printf(" Enter the number of times ");
+    scanf("%f", &n);
+    
+    for (i=1 ; i<=n ; i++){
+        sum+=(1.0/i);
+    }
+     printf("then sum of elements are %f\n",sum);
+}
