@@ -1,0 +1,17 @@
+#include <stdio.h>
+void main () {
+    int a[3], i , sum=0, avg=0;
+    printf("Enter the array elements");
+    //SUM OF ARRAY
+    for(i=0 ; i<=2 ; i++){
+        scanf("%d",&a[i]);
+    }
+    for(i=0;i<=2; i++)
+    {
+        sum=sum+a[i];
+        avg= sum/3;
+    }
+    printf(" Added elements  of aray is= %d", sum);
+    printf("\navg is = %d", avg);
+    
+}
